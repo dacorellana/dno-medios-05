@@ -3,7 +3,7 @@
 Fuente: https://datos.gob.cl/dataset/indice-de-intesidad-de-uso-del-cobre-por-pais/resource/6b2ce9f5-f23a-41ef-961a-1e9939e00c10
 Preferí "limpiar" los datos antes de utilizarlos. La versión "limpia" la dejé en GitHub
 */
-Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clase-05/indice-uso-cobre.csv", {
+Papa.parse("https://raw.githubusercontent.com/dacorellana/dno-medios-clase-05/main/indice.csv", {
     download: true,
     header: true,
     dynamicTyping: true,
@@ -45,7 +45,7 @@ Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2021/main/clas
                         datasets: [
                             {
                                 data: indice,
-                                backgroundColor: "rgba(0, 0, 0, .1)",
+                                backgroundColor: "rgba(200, 100, 50, .1)",
                                 borderColor: "rgba(0, 0, 0, .5)",
                                 pointRadius: 2,
                                 borderWidth: 1,
